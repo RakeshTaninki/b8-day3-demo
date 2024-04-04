@@ -17,3 +17,5 @@ jobs:
         run: zip python.zip lambda_function.py
       - name: list all the files 
         run: ls -l
+      - name: aws cli command
+        run: aws lambda update-function-code --function-name  GithubWorkflowFunction --zip-file fileb://python.zip
