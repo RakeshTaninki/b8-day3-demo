@@ -1,0 +1,7 @@
+name: deploy_to_aws_lambda
+
+on:
+  push:
+    branches:
+    - main
+
