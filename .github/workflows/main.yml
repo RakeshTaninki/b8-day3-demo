@@ -14,7 +14,7 @@ jobs:
       - name: list all the files 
         run: ls -l
       - name: zip a file
-        run: zip python.zip lambda_function.py
+        run: zip -r python.zip .
       - name: list all the files 
         run: ls -l
       - name: aws cli command
